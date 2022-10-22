@@ -1,0 +1,462 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	font-family:calibri;
+	margin:0px;
+
+}
+
+
+header nav {
+	width:100%;
+	background-color:white;
+	box-shadow: 0px 0px 10px #A9A9A9;
+	overflow: hidden;
+
+}
+
+
+header nav h1{
+	color:#026CBE;
+	float:left;
+	margin-left:10px;
+
+
+}
+
+header nav li{
+	display:inline-block;
+
+}
+
+header nav ul{
+	padding:0px;
+}
+
+header nav li#img{
+	width:12%;
+	float:left;
+	margin:10px;
+}
+
+header nav a{
+	color:#026CBE;
+	text-decoration:none;
+}
+header nav a:hover{
+	color:white;
+}
+
+header nav li.opcoes{
+	padding:0.45% 0.75%;
+	margin-top:1.5%;
+	margin-right:1%;
+	float:right;
+	background-color:white;
+	border: 2px solid #026CBE;
+	border-radius:8px;
+	transition:0.5s;
+}
+
+
+header nav li.opcoes:hover{
+	padding: 0.7% 1%;
+	background-color:#026CBE;
+	margin-top:1.2%;
+	margin-right:1%;
+
+}
+
+section {
+	 padding:5% 0px;
+	 text-align:center;
+	 margin-bottom:5% ;
+	 height:950px;
+
+}
+
+
+section ul{
+	 margin-top:4%;
+	 height:100%;
+
+}
+
+
+section li{
+	position:absolute;
+	 width:20%;
+	 height:46%;
+	 padding:3.7%;
+	 cursor: pointer;
+	 overflow: hidden;
+	 box-shadow: 0px 0px 10px #A9A9A9;
+	 background-color:white;
+	 transition:2s;
+	 display:block;
+	 font-size:100%;
+
+}
+
+section li p{
+	 text-indent:10%;
+
+}
+
+section li:hover {
+	height:56.5%;
+	padding: 3.7% 2%;
+	box-shadow: 0px 0px 50px #A9A9A9;
+	z-index:1;
+}
+
+
+
+section li#limpeza{
+	 margin:1.5% 33% 0px ;
+}
+
+section li#limpeza:hover{
+	margin:-1.5% 30% 0px ;
+	width:29.5%;
+	height:57.5%;
+}
+
+
+section li#seguranca{
+	margin:17.25% 2% 0px ;
+
+}
+
+section li#seguranca:hover{
+	margin:14% 2% 0px ;
+	width:25%;
+	height:74%;
+
+}
+
+section li#jardim{
+	 margin:17.25% 64% 0px ;
+}
+
+section li#jardim:hover{
+	margin:14% 63% 0px ;
+	width:25%;
+
+}
+
+section li#diversos{
+	 margin:34.5% 33% 0px;
+
+}
+
+section li#diversos:hover{
+	margin:32% 30% 0px;
+	width:29.5%;
+	height:35%;
+
+
+
+}
+
+
+section li p{
+	text-align:justify;
+
+}
+
+section h1{
+	 font-size:45px;
+	 color:#026CBE;
+	 text-align:center;
+	 margin-top:10px;
+}
+
+section h2{
+	 color:#026CBE;
+}
+
+
+
+
+footer {
+	text-align:center;
+	padding:2px;
+	color:white;
+	background-color:#026CBE;
+	clear:both;
+}
+
+footer a{
+	color:white;
+	text-decoration:none;
+	transition:0.8s;
+	cursor: pointer;
+
+}
+
+@media screen and (min-width:0px) and (max-width:700px){
+
+	nav li.opcoes{
+		border: 1.5px solid #026CBE;
+		border-radius:7px;
+		font-size:13px;
+	}
+
+	nav li h1{
+		font-size:14px;
+	}
+
+	section{
+		height: auto;
+	}
+
+	section h1{
+		 font-size:17px;
+	}
+
+	section h2{
+		 font-size:15px;
+	}
+	section li{
+		position:relative;
+		 width:80%;
+		 height:a;
+		 padding:3.7%;
+		 cursor: pointer;
+		 overflow: hidden;
+		 box-shadow: 0px 0px 10px #A9A9A9;
+		 background-color:white;
+		 transition:1.5s;
+		 display:block;
+		 float:center;
+
+
+	}
+
+	section li:hover{
+		padding:3.7%;
+		box-shadow: 0px 0px 80px #404040;
+	}
+
+	section li p{
+		 text-indent:10%;
+		 margin-left:20%;
+		 font-size:13px;
+
+	}
+
+
+	section li img{
+		float:center;
+		width: 20%;
+
+
+	}
+
+	section li#limpeza{
+		float:center;
+		margin:0px 3% 5% 4%;
+		height:35%;
+	}
+
+	section li#limpeza p {
+		margin:0px ;
+	}
+
+	section li#limpeza:hover{
+		margin:0px 0px 5% 4%;
+		width:80%;
+		 height:35%;
+	}
+
+	section li#seguranca{
+		float:center;
+		margin:0px 0px 5% 4%;
+		height:35%;
+	}
+
+	section li#seguranca p {
+		margin:0px ;
+	}
+
+	section li#seguranca:hover{
+		margin:0px 0px 5% 4%;
+		width:80%;
+		 height:35%;
+	}
+
+	section li#jardim{
+		float:center;
+		margin:0px 0px 5% 4%;
+		height:35%;
+	}
+
+	section li#jardim p {
+		margin:0px ;
+	}
+
+	section li#jardim:hover{
+		margin:0px 0px 5% 4%;
+		width:80%;
+		height:35%;
+	}
+
+	section li#diversos{
+		float:center;
+		margin:0px 0px 5% 4%;
+		height:35%;
+	}
+
+	section li#diversos p {
+		margin:0px ;
+	}
+
+	section li#diversos:hover{
+		margin:0px 0px 5% 4%;
+		width:80%;
+		height:35%;
+	}
+
+	footer {
+		font-size:13px;
+	}
+
+}
+
+@media screen and (min-width:701px) and (max-width:1350px){
+
+	nav li.opcoes{
+		border: 2px solid #026CBE;
+		border-radius:7px;
+		font-size:15px;
+	}
+
+	nav li h1{
+		font-size:17px;
+	}
+
+	section {
+	 height:auto;
+
+	}
+
+	section h1{
+		font-size:25px;
+	}
+
+
+	section ul{
+		 margin-top:4%;
+		 height:100%;
+
+	}
+
+
+	section li{
+		position:relative;
+		 width:80%;
+		 height:a;
+		 padding:3.7%;
+		 cursor: pointer;
+		 overflow: hidden;
+		 box-shadow: 0px 0px 10px #A9A9A9;
+		 background-color:white;
+		 transition:1.5s;
+		 display:block;
+
+	}
+
+	section li:hover{
+		padding:3.7%;
+		box-shadow: 0px 0px 50px #696969;
+	}
+
+	section li p{
+		 text-indent:10%;
+		 margin-left:20%;
+		 font-size:18px;
+
+	}
+
+
+	section li img{
+		float:left;
+		margin:5%;
+
+
+	}
+
+	section li#limpeza{
+		float:right;
+		margin:5% 5% 5% 0px;
+	}
+
+	section li#limpeza img{
+		float:right;
+	}
+	section li#limpeza p{
+		margin:10% 2% 0px ;
+	}
+
+	section li#limpeza:hover{
+		margin:5% 1.5% 5% 0px ;
+		width:80%;
+		 height:35%;
+	}
+
+
+	section li#seguranca{
+		margin:0px 0px 0px 5% ;
+
+	}
+
+	section li#seguranca:hover{
+		margin:0px 0px 0px 1.5%;
+		width:80%;
+		 height:35%;
+
+	}
+
+	section li#jardim{
+		 margin:0px 0px 0px 5% ;
+	}
+
+	section li#jardim:hover{
+		margin:0px 0px 0px 1.5%;
+		width:80%;
+		 height:35%;
+
+	}
+
+	section li#diversos{
+		margin:5% 5% 5% 0px;
+		float:right;
+
+	}
+
+
+	section li#diversos img{
+		float:right;
+	}
+	section li#diversos p{
+		margin:10% 2% 0px ;
+
+	}
+
+	section li#diversos:hover{
+		margin:5% 1.5% 5% 0px ;
+		width:80%;
+		 height:35%;
+
+	}
+
+	footer {
+		font-size:15px;
+	}
+
+
+}
